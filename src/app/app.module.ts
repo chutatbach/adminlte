@@ -9,6 +9,12 @@ import { HomeComponent } from './pages/home/home.component';
 import { LayoutComponent } from './layout/layout.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { Page404Component } from './error/page404/page404.component';
+import { ListUserComponent } from './pages/user/list-user/list-user.component';
+import { AddUserComponent } from './pages/user/add-user/add-user.component';
+import { PutUserComponent } from './pages/user/put-user/put-user.component';
+import { ListProductComponent } from './pages/product/list-product/list-product.component';
+import { AddProductComponent } from './pages/product/add-product/add-product.component';
+import { PutProductComponent } from './pages/product/put-product/put-product.component';
 
 
 @NgModule({
@@ -18,7 +24,13 @@ import { Page404Component } from './error/page404/page404.component';
     HomeComponent,
     LayoutComponent,
     FooterComponent,
-    Page404Component
+    Page404Component,
+    ListUserComponent,
+    AddUserComponent,
+    PutUserComponent,
+    ListProductComponent,
+    AddProductComponent,
+    PutProductComponent
   ],
   imports: [
     BrowserModule,
